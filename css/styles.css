@@ -27,6 +27,15 @@ header {
     color: #2A9D8F;
 }
 
+.menu-link:hover{
+    color: #2A9D8F;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #264653;
+}
+
 section {
     margin: 80px auto;
 }
@@ -49,9 +58,8 @@ section h2 {
     position: absolute;
     top: 10%;
     right: 0;
-    width: 40%;
+    width: 70%;
     padding: 50px;
-    font-size: 32px;
 }
 
 .why {
@@ -95,8 +103,13 @@ section h2 {
 
 }
 
-.what-block img {
+.what-block-text {
     padding: 10px;
+    font-size: 26px;
+}
+
+.what-block p {
+    font-size: 26px;
 }
 
 .galery {
