@@ -1,0 +1,111 @@
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.logo {
+    font-size: 36px;
+    margin: 0 40px;
+    color: #264653;
+    cursor: default;
+}
+
+.menu ul{
+    display: flex;
+    margin-left: 50px;
+}
+
+.menu ul li{
+    padding: 10px 40px;
+    cursor: pointer;
+    color: #264653;
+    font-size: 24px;
+}
+
+.menu ul li:hover{
+    color: #2A9D8F;
+}
+
+section {
+    margin: 80px auto;
+}
+
+section h2 {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.greeting {
+    position: relative;
+}
+
+.greeting img {
+    width: 100%;
+}
+
+.greeting-text {
+    position: absolute;
+    top: 10%;
+    right: 0;
+    width: 40%;
+    padding: 50px;
+    font-size: 32px;
+}
+
+.why {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.why-card{
+    flex-basis: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 60px auto;
+    padding: 10px 30px;
+    box-shadow: 2px 3px 15px -1px rgba(42,157,143,0.34);
+    -webkit-box-shadow: 2px 3px 15px -1px rgba(42,157,143,0.34);
+    -moz-box-shadow: 2px 3px 15px -1px rgba(42,157,143,0.34);
+    transition: 0.1s;
+}
+
+.why-card:hover {
+    transform: scale(1.04, 1.04);
+}
+
+.why-card-title {
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.why-card-text {
+    max-width: 60%;
+    margin: 20px auto;
+    font-size: 18px;
+}
+
+.what-block {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+
+}
+
+.what-block img {
+    padding: 10px;
+}
+
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galery img {
+    max-width: 40%;
+    margin: 40px auto;
+    flex: 2;
+}
